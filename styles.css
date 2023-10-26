@@ -5,7 +5,16 @@ body {
   font-family: verdana;
 }
 
+.three-column {
+  display: flex;
+}
+
+.left, .right {
+  flex: 1;
+}
+
 .cards {
+  flex: 4;
   display: flex;
   flex-wrap: wrap;
 }
